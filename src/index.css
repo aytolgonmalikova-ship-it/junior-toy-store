@@ -1,0 +1,161 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-tap-highlight-color: transparent;
+  }
+  body {
+    @apply min-h-screen bg-cream font-body text-slate-800 antialiased transition-colors duration-500;
+    @apply dark:bg-night-950 dark:text-indigo-50;
+  }
+  ::selection {
+    @apply bg-sunny-300 text-night-900;
+  }
+  :focus-visible {
+    @apply outline-none ring-4 ring-grape-300 ring-offset-2 ring-offset-cream dark:ring-sunny-300 dark:ring-offset-night-950;
+  }
+}
+
+@layer components {
+  .section {
+    @apply mx-auto max-w-7xl px-4 py-14 sm:px-6 md:py-20 lg:px-8;
+  }
+
+  .card-toy {
+    @apply rounded-[2rem] border-2 border-white/80 bg-white shadow-toy dark:border-white/10 dark:bg-night-800;
+  }
+
+  /* Squeaky, pressable "toy" button. Colors come from --face / --edge custom properties. */
+  .btn-toy {
+    @apply relative inline-flex select-none items-center justify-center gap-2 font-black tracking-wide;
+    background-color: var(--face);
+    box-shadow:
+      0 6px 0 var(--edge),
+      0 14px 22px -8px rgba(45, 34, 80, 0.45);
+    transition:
+      transform 0.15s ease-out,
+      box-shadow 0.15s ease-out,
+      filter 0.15s ease-out;
+  }
+  .btn-toy:hover {
+    transform: translateY(-3px) rotate(-1deg);
+    filter: brightness(1.05) saturate(1.05);
+    box-shadow:
+      0 9px 0 var(--edge),
+      0 20px 26px -8px rgba(45, 34, 80, 0.45);
+  }
+  .btn-toy:active {
+    transform: translateY(5px) scale(0.98);
+    box-shadow:
+      0 1px 0 var(--edge),
+      0 4px 8px -4px rgba(45, 34, 80, 0.4);
+  }
+  .btn-toy.text-white {
+    text-shadow: 0 2px 0 rgba(0, 0, 0, 0.18);
+  }
+
+  /* Form controls (admin panel). */
+  .input-toy {
+    @apply w-full rounded-2xl border-2 border-sunny-200 bg-white px-4 py-3 font-semibold text-night-900 transition placeholder:text-slate-400;
+    @apply focus:border-grape-400 focus:outline-none focus:ring-4 focus:ring-grape-200;
+    @apply disabled:cursor-not-allowed disabled:opacity-60;
+    @apply dark:border-night-600 dark:bg-night-900 dark:text-white dark:placeholder:text-indigo-300/50 dark:focus:border-grape-400 dark:focus:ring-grape-500/30;
+  }
+  .input-toy[aria-invalid='true'] {
+    @apply border-coral-400 dark:border-coral-400;
+  }
+  .btn-mini {
+    @apply inline-flex h-10 min-w-10 items-center justify-center gap-1.5 rounded-xl px-2.5 text-sm font-black transition hover:-translate-y-0.5 active:translate-y-0.5 disabled:pointer-events-none disabled:opacity-40;
+  }
+
+  /* Category chip with a small 3D edge. */
+  .chip-toy {
+    @apply inline-flex shrink-0 items-center gap-2 rounded-full px-4 py-2.5 text-sm font-extrabold transition-all duration-150 sm:text-base;
+    box-shadow: 0 4px 0 var(--edge, rgba(45, 34, 80, 0.15));
+  }
+  .chip-toy:hover {
+    transform: translateY(-2px);
+  }
+  .chip-toy:active {
+    transform: translateY(3px);
+    box-shadow: 0 1px 0 var(--edge, rgba(45, 34, 80, 0.15));
+  }
+}
+
+@layer utilities {
+  .text-shadow-toy {
+    text-shadow: 0 3px 0 rgba(45, 34, 80, 0.18);
+  }
+  .no-scrollbar {
+    scrollbar-width: none;
+  }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+/* ---------- Bouncing ball loader ---------- */
+.loader-ball {
+  background: conic-gradient(#ff6b6b 0 25%, #ffc21a 0 50%, #3dd6a0 0 75%, #34afff 0);
+  border: 4px solid #2d2250;
+  animation: ball-bounce 1s infinite;
+}
+.loader-ball::after {
+  content: '';
+  position: absolute;
+  top: 18%;
+  left: 20%;
+  width: 28%;
+  height: 18%;
+  border-radius: 9999px;
+  background: rgba(255, 255, 255, 0.6);
+  transform: rotate(-30deg);
+}
+.loader-shadow {
+  animation: ball-shadow 1s infinite;
+}
+@keyframes ball-bounce {
+  0% {
+    transform: translateY(0) scale(1, 1) rotate(0deg);
+    animation-timing-function: cubic-bezier(0.55, 0, 1, 0.45);
+  }
+  45% {
+    transform: translateY(72px) scale(1, 1) rotate(160deg);
+    animation-timing-function: linear;
+  }
+  52% {
+    transform: translateY(78px) scale(1.2, 0.8) rotate(180deg);
+    animation-timing-function: cubic-bezier(0, 0.55, 0.45, 1);
+  }
+  60% {
+    transform: translateY(70px) scale(0.94, 1.06) rotate(200deg);
+  }
+  100% {
+    transform: translateY(0) scale(1, 1) rotate(360deg);
+  }
+}
+@keyframes ball-shadow {
+  0%,
+  100% {
+    transform: scale(0.45);
+    opacity: 0.35;
+  }
+  52% {
+    transform: scale(1.1);
+    opacity: 0.9;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

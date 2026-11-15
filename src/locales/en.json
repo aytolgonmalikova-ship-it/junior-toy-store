@@ -1,0 +1,383 @@
+{
+  "meta": {
+    "title": "Junior — Kids' Toy Store"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About us",
+    "services": "Services",
+    "catalog": "Catalog",
+    "delivery": "Delivery & Payment",
+    "contacts": "Contacts"
+  },
+  "header": {
+    "home": "Junior — go to home page",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "toLight": "Switch to day theme",
+    "toDark": "Switch to night theme",
+    "language": "Site language"
+  },
+  "hero": {
+    "badge": "The store of kids' happiness",
+    "titleStart": "Welcome to the",
+    "titleAccent": "world of Junior toys!",
+    "subtitle": "Safe, bright and educational toys for little ones and bigger kids. We'll find the perfect gift for any age and interest — with a smile and care!",
+    "ctaChoose": "Choose a toy",
+    "ctaGift": "Find a gift",
+    "bubble": "Hi! I'm Juni 👋",
+    "mascotAlt": "Juni the teddy bear — Junior store mascot",
+    "perks": {
+      "safe": "Safe materials",
+      "help": "Help with choosing",
+      "delivery": "Door-to-door delivery"
+    }
+  },
+  "home": {
+    "popularEyebrow": "Season hits",
+    "popularTitle": "Popular toys",
+    "popularSubtitle": "Kids adore them and parents happily choose them",
+    "viewAll": "Full catalog",
+    "servicesEyebrow": "How we help",
+    "servicesTitle": "Our services",
+    "servicesSubtitle": "We turn choosing a toy into an easy and fun adventure"
+  },
+  "cta": {
+    "title": "Not sure what to choose?",
+    "text": "Message us on WhatsApp — we'll tell you all about it and find your little one's dream toy!",
+    "button": "Message on WhatsApp"
+  },
+  "about": {
+    "eyebrow": "Our story",
+    "title": "About Junior",
+    "story1": "Junior started with a simple idea: every toy should bring joy to a child and peace of mind to parents.",
+    "story2": "We carefully select every toy, checking its materials, quality and developmental value. Our shelves only hold toys we'd happily give to our own kids.",
+    "story3": "Not sure what to pick? Tell us about your child — their age, personality and hobbies — and we'll help you find the toy that makes their eyes light up.",
+    "signature": "With love, the Junior team 💛",
+    "valuesTitle": "Why kids and parents love us",
+    "values": {
+      "safe": {
+        "title": "Safe materials",
+        "text": "Only high-quality, non-toxic toys — soft to the touch and sturdy in play."
+      },
+      "joy": {
+        "title": "Joy for kids",
+        "text": "Bright, fun toys that kids want to play with again and again."
+      },
+      "help": {
+        "title": "Help with choosing",
+        "text": "We'll suggest what suits your child's age and interests — quickly and kindly."
+      },
+      "care": {
+        "title": "Care for everyone",
+        "text": "We answer questions, pack carefully and deliver orders fast."
+      }
+    }
+  },
+  "services": {
+    "eyebrow": "What we do",
+    "title": "Our services",
+    "subtitle": "From the first rattle to an advanced building kit — we'll help you find a toy for every age and occasion",
+    "items": {
+      "personal": {
+        "title": "We'll pick toys for your child",
+        "text": "Personal selection by age and interests. Tell us about your little one and we'll suggest the best options.",
+        "points": [
+          "By age",
+          "By interests",
+          "By budget"
+        ]
+      },
+      "educational": {
+        "title": "Educational toys",
+        "text": "Toys for logic, motor skills and thinking. Play — and get smarter every day!",
+        "points": [
+          "Logic",
+          "Motor skills",
+          "Thinking"
+        ]
+      },
+      "constructors": {
+        "title": "Exciting building kits",
+        "text": "For little and big builders: from chunky blocks to rocket and robot models.",
+        "points": [
+          "For toddlers",
+          "For schoolkids",
+          "For the whole family"
+        ]
+      },
+      "events": {
+        "title": "Gifts for every occasion",
+        "text": "Presents for holidays, birthdays and just for a good mood.",
+        "points": [
+          "Birthdays",
+          "Holidays",
+          "Just because"
+        ]
+      }
+    }
+  },
+  "catalog": {
+    "eyebrow": "Catalog",
+    "title": "Our toys",
+    "subtitle": "Pick a category and find a toy that brings a sea of smiles",
+    "filterLabel": "Filter by category",
+    "categories": {
+      "all": "All",
+      "plush": "Plush",
+      "educational": "Educational",
+      "constructors": "Building kits",
+      "vehicles": "Vehicles",
+      "active": "Active play"
+    },
+    "found": "Toys found: {{total}}",
+    "age": "Age",
+    "currency": "KGS",
+    "order": "Order on WhatsApp",
+    "empty": "This category is empty for now — new toys are coming soon!",
+    "demo": {
+      "label": "API demo:",
+      "reload": "Reload",
+      "error": "Show error"
+    }
+  },
+  "loading": {
+    "text": "Loading toys",
+    "page": "Opening page"
+  },
+  "error": {
+    "title": "Oops! The toys are hiding",
+    "text": "We couldn't load the catalog. Check your connection or try again — the teddy is already searching!",
+    "code": "Error code: {{code}}",
+    "retry": "Try again"
+  },
+  "delivery": {
+    "eyebrow": "Easy and simple",
+    "title": "Delivery & Payment",
+    "subtitle": "We'll bring joy right to your door or get your order ready for pickup",
+    "methodsTitle": "Delivery options",
+    "courier": {
+      "title": "Courier delivery",
+      "text": "We'll quickly bring the toys right to your front door."
+    },
+    "pickup": {
+      "title": "Pickup",
+      "text": "You can collect your toys yourself from our store."
+    },
+    "paymentTitle": "Payment method",
+    "cash": {
+      "title": "Pay the courier on delivery",
+      "text": "Pay the courier in cash or by transfer — after you've checked the item.",
+      "points": [
+        "Cash",
+        "Transfer to courier",
+        "After checking the item"
+      ]
+    },
+    "stepsTitle": "How to order",
+    "steps": {
+      "choose": {
+        "title": "Choose a toy",
+        "text": "Browse the catalog or ask us to help you choose."
+      },
+      "message": {
+        "title": "Message us on WhatsApp",
+        "text": "Tap “Order on WhatsApp” and we'll confirm the details."
+      },
+      "receive": {
+        "title": "Receive and pay",
+        "text": "The courier brings your order and you pay after checking it."
+      }
+    }
+  },
+  "contacts": {
+    "eyebrow": "Always in touch",
+    "title": "Contacts",
+    "subtitle": "The fastest way to reach us is WhatsApp",
+    "cardTitle": "Message us — we'll reply!",
+    "cardText": "We'll help you choose a toy, check availability and place your order right in the chat.",
+    "whatsapp": "Message on WhatsApp",
+    "phoneLabel": "Phone & WhatsApp",
+    "noteFast": "Quick, friendly replies",
+    "notePickup": "We'll share the pickup address in chat"
+  },
+  "fab": {
+    "label": "Message on WhatsApp",
+    "tooltip": "Got a question? Message us! 💬"
+  },
+  "footer": {
+    "tagline": "A kids' toy store where smiles are born.",
+    "navTitle": "Sections",
+    "contactTitle": "Get in touch",
+    "rights": "All rights reserved."
+  },
+  "notFound": {
+    "title": "Oops! This page ran off to play",
+    "text": "Looks like this page doesn't exist. Let's head back home — there's lots of fun there!",
+    "back": "Back to home"
+  },
+  "whatsapp": {
+    "order": "Hello! I'd like to order “{{name}}” for {{price}}. Is it in stock?",
+    "general": "Hello! Could you help me choose a toy? 🧸",
+    "gift": "Hello! Could you help me choose a gift? 🎁"
+  },
+  "admin": {
+    "metaTitle": "Admin panel — Junior",
+    "close": "Close",
+    "toggle": {
+      "toAdmin": "Admin panel",
+      "toShop": "Back to shop"
+    },
+    "login": {
+      "title": "Admin sign-in",
+      "subtitle": "Sign in to manage the store catalog",
+      "login": "Login",
+      "password": "Password / PIN",
+      "show": "Show password",
+      "hide": "Hide password",
+      "submit": "Sign in",
+      "sessionNote": "Your session lasts until you close this tab",
+      "demoTitle": "Quick sign-in (demo)",
+      "demoHint": "Tap a profile to sign in with one click",
+      "demoWarning": "Demo credentials. A real store checks sign-ins on a server and never keeps passwords in the browser.",
+      "errors": {
+        "required": "Enter your login and password",
+        "invalid": "Wrong login or password",
+        "blocked": "This administrator is blocked. Please contact the super admin."
+      }
+    },
+    "roles": {
+      "super": "Super admin",
+      "admin": "Administrator"
+    },
+    "status": {
+      "active": "Active",
+      "blocked": "Blocked"
+    },
+    "header": {
+      "hello": "Hello, {{name}}!",
+      "logout": "Sign out"
+    },
+    "tabs": {
+      "label": "Admin panel sections",
+      "products": "Products",
+      "admins": "Team"
+    },
+    "stats": {
+      "toys": "Total toys",
+      "categories": "Categories",
+      "avgPrice": "Average price",
+      "activeAdmins": "Active admins"
+    },
+    "products": {
+      "title": "Manage products",
+      "search": "Search by name…",
+      "allCategories": "All categories",
+      "add": "Add a toy",
+      "reset": "Reset catalog to default",
+      "empty": "Nothing found",
+      "count": "Showing {{shown}} of {{total}}",
+      "columns": {
+        "photo": "Photo",
+        "name": "Name",
+        "category": "Category",
+        "age": "Age",
+        "price": "Price",
+        "actions": "Actions"
+      },
+      "edit": "Edit",
+      "delete": "Delete",
+      "popular": "Hit",
+      "viewInShop": "View the catalog in the shop"
+    },
+    "toyForm": {
+      "addTitle": "New toy",
+      "editTitle": "Edit toy",
+      "names": "Name in three languages",
+      "nameRu": "Name (RU) *",
+      "nameKg": "Name (KG)",
+      "nameEn": "Name (EN)",
+      "autofill": "Fill KG/EN from RU",
+      "autofillHint": "Copies the Russian name into empty KG and EN fields so you can translate it later.",
+      "category": "Category",
+      "price": "Price, KGS *",
+      "age": "Age",
+      "image": "Photo URL",
+      "imageHint": "A direct link to an image (https://…). Leave empty to show the fallback icon.",
+      "illustration": "Fallback icon (if the photo fails to load)",
+      "popular": "Show in “Popular toys” on the home page",
+      "preview": "This is how the card will look in the catalog",
+      "previewName": "Toy name",
+      "save": "Save",
+      "create": "Add",
+      "cancel": "Cancel",
+      "errors": {
+        "nameRu": "Enter the Russian name",
+        "price": "Enter a price above 0",
+        "image": "The link must start with http:// or https://"
+      }
+    },
+    "admins": {
+      "title": "Team",
+      "subtitle": "Add, edit and block store administrators",
+      "add": "Add administrator",
+      "reset": "Reset admin list",
+      "you": "You",
+      "lastLogin": "Last sign-in: {{date}}",
+      "never": "Never signed in",
+      "edit": "Edit",
+      "delete": "Delete",
+      "block": "Block",
+      "unblock": "Unblock",
+      "selfHint": "You can’t delete, block or demote yourself",
+      "lockedTitle": "Super admin only",
+      "lockedText": "You don’t have access to administrator management.",
+      "back": "To products"
+    },
+    "adminForm": {
+      "addTitle": "New administrator",
+      "editTitle": "Edit administrator",
+      "name": "Name",
+      "login": "Login",
+      "loginHint": "Latin letters, digits, dot, hyphen or _",
+      "password": "Password / PIN",
+      "passwordHint": "At least 4 characters",
+      "passwordKeep": "Leave empty to keep the current one",
+      "role": "Role",
+      "status": "Status",
+      "save": "Save",
+      "create": "Add",
+      "cancel": "Cancel",
+      "errors": {
+        "name": "Enter a name",
+        "login": "Login: 3–20 characters — Latin letters, digits, dot, hyphen or _",
+        "loginTaken": "This login is already taken",
+        "password": "Password / PIN must be at least 4 characters"
+      }
+    },
+    "confirm": {
+      "confirm": "Yes, continue",
+      "cancel": "Cancel",
+      "deleteToyTitle": "Delete this toy?",
+      "deleteToyText": "“{{name}}” will disappear from the catalog. This can’t be undone.",
+      "resetToysTitle": "Reset the catalog?",
+      "resetToysText": "All changes will be removed and the default 12 toys restored.",
+      "deleteAdminTitle": "Delete this administrator?",
+      "deleteAdminText": "{{name}} will no longer be able to sign in to the admin panel.",
+      "resetAdminsTitle": "Reset the admin list?",
+      "resetAdminsText": "The original list will be restored and added administrators removed. If your profile isn’t in the original list, you’ll be signed out."
+    },
+    "toast": {
+      "toyCreated": "Toy added 🎉",
+      "toySaved": "Changes saved ✅",
+      "toyDeleted": "Toy deleted 🗑️",
+      "toysReset": "Catalog reset to default ♻️",
+      "adminCreated": "Administrator added 🎉",
+      "adminSaved": "Administrator saved ✅",
+      "adminDeleted": "Administrator deleted 🗑️",
+      "adminsReset": "Admin list reset ♻️",
+      "statusChanged": "Status changed 🔁"
+    },
+    "demoNote": "Demo mode: data is stored only in this browser (localStorage)."
+  }
+}
